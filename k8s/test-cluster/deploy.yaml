@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: percona-server-mongodb-operator
 spec:
-  replicas: 1
+  replicas: 123456
   selector:
     matchLabels:
       name: percona-server-mongodb-operator
